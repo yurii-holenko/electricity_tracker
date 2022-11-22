@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_21_113803) do
+ActiveRecord::Schema[7.0].define(version: 2022_11_21_141409) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
   enable_extension "postgis"
@@ -47,6 +47,16 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_21_113803) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["region_id"], name: "index_cities_on_region_id"
+  end
+
+  create_table "crono_jobs", force: :cascade do |t|
+    t.string "job_id", null: false
+    t.text "log"
+    t.datetime "last_performed_at", precision: nil
+    t.boolean "healthy"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["job_id"], name: "index_crono_jobs_on_job_id", unique: true
   end
 
   create_table "districts", force: :cascade do |t|

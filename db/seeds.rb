@@ -11,7 +11,7 @@ AdminUser.create!(email: 'admin@example.com', password: 'password', password_con
 # Birky
 #
 region = Region.find_or_create_by(name: 'Lvivska Oblast')
-city = City.find_or_create_by(name: 'Birky')
+city = City.find_or_create_by(name: 'Birky', region_id: region.id)
 
 ips = %w[213.174.1.0 213.174.1.249 213.174.1.247 213.174.1.245 213.174.1.244 213.174.1.241 213.174.1.240
               213.174.1.239 213.174.1.238 213.174.1.237 213.174.1.236 213.174.1.235 213.174.1.234 213.174.1.233
