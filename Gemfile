@@ -51,6 +51,7 @@ gem 'devise'
 gem 'activerecord-postgis-adapter'
 gem 'pg'
 gem 'crono'
+gem 'daemons'
 
 gem 'net-ping', '~> 1.7', '>= 1.7.8'
 # gem 'maxmind-geoip2'

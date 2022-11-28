@@ -54,6 +54,7 @@
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.10, RVM: ruby-3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, RVM: ruby-3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crono (v2.0.1, RVM: ruby-3.0.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="daemons (v1.4.1, RVM: ruby-3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.6.3, RVM: ruby-3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.8.1, RVM: ruby-3.0.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dotenv (v2.8.1, RVM: ruby-3.0.2) [gem]" level="application" />
